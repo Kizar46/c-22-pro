@@ -34,7 +34,10 @@ function setup() {
    cars=new Car(2);
    carGroup1.add(cars.spt);
  }
- 
+ for (var i = 0 ;i < 40 ; i++){
+   log = new Log(-3);
+   logGroup1.add(log.spt);
+ }
  }
 
 function draw() {
