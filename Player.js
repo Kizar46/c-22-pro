@@ -1,5 +1,5 @@
 class Player{
-constructor (x,y){
+constructor (x,y)
 {
     this.x=x;
     this.y=y;
@@ -7,7 +7,7 @@ constructor (x,y){
     this.spt.shapecolor="yellow";
 }
    move (xdir,ydir)
-move{
+{
     this.spt.x+=xdir*grid;
     this.spt.y+=ydir*grid;
 }
